@@ -30,10 +30,10 @@ const RandomQuote = () => {
   };
 
   return (
-    <div className="flex bg-blue-100 flex-col items-center justify-center h-screen">
+    <div className="flex mx-4 bg-blue-100 flex-col items-center justify-center h-screen">
       <h1 className="text-4xl text-red-500 font-bold text-center my-4 font-serif">Get your quote today! 💖 </h1>
-      <div className="p-4 bg-white rounded-lg shadow-lg transition duration-500 ease-in-out hover:bg-gray-300 hover:scale-105">
-        <p className="text-3xl font-bold text-center mb-2 font-evolventa">{quote}</p>
+      <div className="p-4 bg-white rounded-lg shadow-lg transition duration-500 ease-in-out hover:bg-gray-300 hover:scale-90">
+        <p className="text-2xl font-bold text-center mx-4 mb-2 font-evolventa">{quote}</p>
         <p className="text-lg text-gray-700 text-center">{author}</p>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 mx-auto block" onClick={handleClick}>Get Random Quote</button>
         <p className="text-gray-600 text-center text-sm mt-2">© {new Date().getFullYear()} Lay Vimol: Random Quote Generator</p>
